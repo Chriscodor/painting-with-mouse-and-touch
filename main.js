@@ -76,6 +76,7 @@ function my_touchstart(e)
     lasty = e.touches[0].clientY - canvas.offsetTop;  
 }
 
+canvas.addEventListener("touchmove", my_touchmove);
 
 function my_touchmove(e)
 {
